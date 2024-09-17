@@ -1,1 +1,15 @@
-#
+THE PLAN
+
+Done
+#Created menu for items
+added chicken burger
+added halloumi burger
+
+#Created folder for reflections
+added reflections
+Chosen python as programming language
+
+TO DO
+
+Create project files
+assign work between the group members
