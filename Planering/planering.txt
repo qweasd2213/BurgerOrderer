@@ -1,6 +1,7 @@
 THE PLAN
 
-Done
+DONE
+
 #Created menu for items
 added chicken burger
 added halloumi burger
@@ -8,8 +9,19 @@ added halloumi burger
 #Created folder for reflections
 added reflections
 Chosen python as programming language
-
+Added development branch
 TO DO
 
 Create project files
 assign work between the group members
+
+
+Viktor Huotari tasks:
+Write burger alternatives
+Help where neccesary
+
+Ante and Hugo tasks:
+Python code for BurgerOrder
+
+Leon and Arvid tasks:
+Python code for ViewOrder
