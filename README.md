@@ -1,1 +1,3 @@
 En readme skriv lite roliga saker...
+
+När du har clonat från githib, ställ dig i terminalen och kör "docker-compose -f burgerorderer.yaml up --build" för att köra i docker eller kör direckt i vscode och följ popupp fönstret för att instalera det som behövs.
