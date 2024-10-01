@@ -5,7 +5,7 @@ import requests
 
 app = Flask(__name__)
 
-staticBurgers= [{"name":"Chiken burger"},
+staticBurgers= [{"name":"Chicken burger"},
                 {"name":"Halloumi burger"},
                 {"name":"Hamburger"},
                 {"name":"Deluxe burger"},
