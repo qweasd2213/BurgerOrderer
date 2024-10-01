@@ -3,7 +3,7 @@
 **Navigera till "Menu" mappen för info om maträtter och ingredienser**
 
 ## To-do List
-- BurgerOrder, huvud wbegränssnittet
+- BurgerOrder, huvud webgränssnittet
 - MenuStore, En databas om alla typer av varor
 - KitchenView, tar emot beställningar från BurgerOrder
 - Testing och Debugning
@@ -18,11 +18,17 @@
 ## Vem gör vad?
 
 ### Arvid
+- KitchenView, tar emot beställningar från BurgerOrder
 
 ### Ante
+- Testing och Debugning, automatisk testning.
 
 ### Leon
+- Skriv i gemensam refelktion.
+- README.md
 
 ### Viktor
+- BurgerOrder, huvud webgränssnittet
 
 ### Hugo
+- MenuStore, En databas om alla typer av varor
