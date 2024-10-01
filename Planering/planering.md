@@ -1,8 +1,8 @@
-#Planering
+# Planering
 
 **Navigera till "Menu" mappen för info om maträtter och ingredienser**
 
-##To-do List
+## To-do List
 - BurgerOrder, huvud wbegränssnittet
 - MenuStore, En databas om alla typer av varor
 - KitchenView, tar emot beställningar från BurgerOrder
@@ -15,14 +15,14 @@
 
 
 
-##Vem gör vad?
+## Vem gör vad?
 
-###Arvid
+### Arvid
 
-###Ante
+### Ante
 
-###Leon
+### Leon
 
-###Viktor
+### Viktor
 
-###Hugo
+### Hugo
