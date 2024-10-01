@@ -7,7 +7,9 @@ app = Flask(__name__)
 
 staticBurgers= [{"name":"Chiken burger"},
                 {"name":"Halloumi burger"},
-                {"name":"Hamburger"}]
+                {"name":"Hamburger"}
+                {"name":"Deluxe burger"}
+                {"name":"Vegan burger"}]
 
 def getBurgers():
     return staticBurgers
