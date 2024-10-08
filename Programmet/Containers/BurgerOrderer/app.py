@@ -17,10 +17,10 @@ def getBurgers():
 
 def renderFrontpage():
     pg = "<h1>Welcome to BurgerOrderer</h1>"
-    pg += "<P><UL>"
+    pg += "<UL>"
     
     for b in getBurgers():
-        pg += "<LI>" + b["name"]
+        pg += f"<LI><a href='/buy/{b['name']}'>{b['name']}</a></LI>"
 
     pg += "</UL>"
     return pg
