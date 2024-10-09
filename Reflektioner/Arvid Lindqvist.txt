@@ -1,0 +1,16 @@
+Ingenjörsdagbok...
+
+First uppdate to enginnering diary.
+We started of by making a github repository for the project. 
+We decided to use python as the language and started of with the foundation for the projeckt that Mikael made in python.
+
+I decided to use the github desktop aplication learnt the basics and cloned the project to my computer. Since the projekt
+is suposed to run in containers we use docker and figuring thart out was rather more dificult. I ended upp folowing the 
+tutorial that apears in the docker aplication witch i think was a good tutorials. And i managed to get the kitchenview 
+and burgerorderer to run in their containers. Throuh this i learnt how to build container images and run them in docker.
+
+We also meet in person and discuss the projeckt and distribute the work between us. In our github repo we have also set upp 
+all the folders and files for the projeckt. There is also two branches one called "Development" And "Main". 
+I have so far made a few comits to the repo. I fixed the html in burgerorderer so now you can order a burger and it gets 
+printed out in the console of kitchenview. But mainly i have been trying to understand flask and figure out how evrything 
+works. 
