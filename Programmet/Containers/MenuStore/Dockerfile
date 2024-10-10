@@ -1,12 +1,22 @@
-FROM python:3.8-slim
+FROM python:3.9-slim
+
+RUN apt-get update && apt-get install -y postgresql postgresql-contrib
 
 WORKDIR /app
 
-COPY requirements.txt requirements.txt
+COPY . /app
+
 RUN pip3 install -r requirements.txt
 
-COPY . .
-EXPOSE 8000
-ENV PYTHONUNBUFFERED="yes"
+ENV POSTGRES_USER=your_username
+ENV POSTGRES_PASSWORD=your_password
+ENV POSTGRES_DB=your_database_name
 
-ENTRYPOINT ["python3", "app.py"]
+EXPOSE 6000
+EXPOSE 5432
+
+RUN service postgresql start && \
+    sudo -u postgres psql -c "CREATE USER your_username WITH PASSWORD 'your_password';" && \
+    sudo -u postgres createdb -O your_username your_database_name
+
+CMD service postgresql start && flask run --host=0.0.0.0 --port=6000

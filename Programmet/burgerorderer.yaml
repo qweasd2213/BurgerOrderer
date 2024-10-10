@@ -18,10 +18,15 @@ services:
     volumes:
       - ./Containers/KitchenView:/app
   
-  MenueStore:
-    image: Menuestore
-    build: ./Containers/MenueStore
+  menustore:
+    image: menustore
+    build: ./Containers/menustore
     ports:
       - 6000:6000
     volumes:
-      - ./Containers/MenueStore:/app
+      - ./Containers/menustore:/app
+    environment:
+      POSTGRES_USER: your_username
+      POSTGRES_PASSWORD: your_password
+      POSTGRES_DB: your_database_name
+      DATABASE_URL: 'postgresql://your_username:your_password@localhost:5432/your_database_name'
