@@ -1,3 +1,6 @@
 First update
 We have made a GitHub repository. We have also chosen to use python as our language for the assignment.
-We have divided the work among each other. I was chosen to do the code for the burgerorder container. So far I've made some small commits but nothing major as I am trying to understand how I am supposed to do this. I have been reading through the presentations and watching some videos about the topic. I think I might be on the right track but I might need some help from the other group members aswell.   
+We have divided the work among each other. I was chosen to do the code for the burgerorder container. So far I've made some small commits but nothing major as I am trying to understand how I am supposed to do this. I have been reading through the presentations and watching some videos about the topic. I think I might be on the right track but I might need some help from the other group members as well.
+
+Second update
+Translated the planering.md document to English from Swedish. I have also added new information about how we will work after we are done with our tasks. After one member is done with their tasks they will help the other members with their tasks.    
