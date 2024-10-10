@@ -17,3 +17,11 @@ services:
       - 5000:5000
     volumes:
       - ./Containers/KitchenView:/app
+  
+  MenueStore:
+    image: Menuestore
+    build: ./Containers/MenueStore
+    ports:
+      - 6000:6000
+    volumes:
+      - ./Containers/MenueStore:/app
