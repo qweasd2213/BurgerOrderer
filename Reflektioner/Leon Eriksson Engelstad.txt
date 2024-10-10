@@ -1,0 +1,6 @@
+2024-09-17
+Added reflections folder for documenting the work we do
+Added a folder for planning about how we will layout the work for this project, who will do what.
+Wrote out a plan for this project
+2024-09-20
+Updated the plans
