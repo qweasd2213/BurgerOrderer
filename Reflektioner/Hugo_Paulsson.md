@@ -7,4 +7,4 @@ We decided that my main objective is to work with MenuStore. I've decided to wor
 **Information about our planing and To-DO list is in our repository. BurgerOrderer/Planering/planering.md**
 
 # 11 Oktober
-Yesterday I forgot to write in my engineer-diary. Yesterday I was trying to get our MenuStore container to work correctly and understand how to code SQL and how the database works, wasn't very succsesfull. Today I'm gonna watch videos from the YouTube channel freeCodeCamp.org so I can really understand how databases and SQL work because write now I don't at all where I'm supposed to start.
+Yesterday I forgot to write in my engineer-diary. Yesterday I was trying to get our MenuStore container to work correctly and understand how to code SQL and how the database works, wasn't very succsesfull. Today I'm gonna watch videos from the YouTube channel freeCodeCamp.org so I can really understand how databases and SQL work because right now I don't understand much of what I'm supposed to do.
