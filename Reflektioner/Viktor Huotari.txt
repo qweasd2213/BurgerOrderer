@@ -1,6 +1,11 @@
 First update
 We have made a GitHub repository. We have also chosen to use python as our language for the assignment.
 We have divided the work among each other. I was chosen to do the code for the burgerorder container. So far I've made some small commits but nothing major as I am trying to understand how I am supposed to do this. I have been reading through the presentations and watching some videos about the topic. I think I might be on the right track but I might need some help from the other group members as well.
+All the members in the group are using GitHub desktop instead of the GitHub website. GitHub desktop makes it easier to use the commit, push and pull commands that I have been using. commit and push to send my changes to the other group members and pull to get the other members changes on my computer.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Second update
-Translated the planering.md document to English from Swedish. I have also added new information about how we will work after we are done with our tasks. After one member is done with their tasks they will help the other members with their tasks.    
+Translated the planering.md document to English from Swedish. I have also added new information about how we will work after we are done with our tasks. After one member is done with their tasks they will help the other members with their tasks. Used commit and push git commands to send it
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Third update
+I have added more options in burgerorderer, added a options document in planering  that contains the options for all the burgers. Also removed the text from the individual burger documents so it does not contain useless information. Continued writing in the planering document. Used commit and push git commands to send it
