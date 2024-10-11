@@ -2,6 +2,7 @@
 
 **Navigate to "Menu" folder for information about the different kinds of burgers and options for the burgers.**
 
+** We have made two branches, a development and a main branch. The plan is to send our commits to the development branch and when our program is done and working we'll merge the development branch into the main branch. The main branch is the final product that the customer will get. **
 ## To-do List
 - BurgerOrder, the web interface
 - MenuStore, A database with all the different types of burgers and options
@@ -18,7 +19,8 @@
 ## Who does what?
 
 ### Arvid
-- KitchenView, receives orders from Burgerorder 
+- KitchenView, receives orders from Burgerorderer.
+- Help Viktor out with Burgerorderer were help is needed.
 
 ### Ante
 - Testing and Debugging, automated testing 
