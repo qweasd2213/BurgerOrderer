@@ -12,7 +12,7 @@ staticBurgers = [
     {"name": "Vegan burger"}
 ]
 
-options_list = ["3xcheese", "onions", "secret sauce :)"]
+options_list = ["3xcheese", "Onions", "Secret sauce", "Tomato", "Pickles"]
 
 def getBurgers():
     return staticBurgers
