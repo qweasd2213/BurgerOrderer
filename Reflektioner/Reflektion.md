@@ -1,4 +1,4 @@
-#collaborated reflection and 
+#collaborated reflection and summary of project.
 
 name of the people on the team: **Ante, Arvid, Leon, Viktor, Hugo**
 
