@@ -1,4 +1,5 @@
 2024-09-17
+Downloaded and set up everything. Github, docker
 Added reflections folder for documenting the work we do
 Added a folder for planning about how we will layout the work for this project, who will do what.
 Wrote out a plan for this project
