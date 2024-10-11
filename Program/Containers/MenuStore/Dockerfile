@@ -20,3 +20,5 @@ RUN service postgresql start && \
     sudo -u postgres createdb -O your_username your_database_name
 
 CMD service postgresql start && flask run --host=0.0.0.0 --port=6000
+
+ENTRYPOINT ["python3", "app.py"]
