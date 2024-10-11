@@ -14,3 +14,12 @@ all the folders and files for the projeckt. There is also two branches one calle
 I have so far made a few comits to the repo. I fixed the html in burgerorderer so now you can order a burger and it gets 
 printed out in the console of kitchenview. But mainly i have been trying to understand flask and figure out how evrything 
 works. 
+
+Second uppdate to enginnering diary.
+Since the last uppdate to the diary i have made commits to the burgerorderer.yaml and menuestore dockerfile, 
+i added menuestore to burgerorderer.yaml so menuestore gets set up in its docker contaioner. I also corrected port number 
+in menuestore docerfile. The group also met in person where we mainly tryed and figure out how to set upp the database, with 
+litele succes. Ialso made commits to burgerorderer app.py and kitchenview app.py, for burgerorderer i added functionality for
+selecting options and quantety for your burger. And uppdated kitchenview to handele options and quantety. I chose to add another 
+page to burgerorderer after selecting burger where the user can chose potions and how many to buy and a button to send the order.
+
