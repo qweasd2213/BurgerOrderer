@@ -1,1 +1,38 @@
+First day:
+Downloaded git to the terminal -> struggled finding the correct website for it - but i managed after some searching.
+The group chose to use GITHUB as our distributor.
+Made a SSH-key and connected it to GITHUB.
+
+-Cloned the repository and made my first commit
+
+Second day:
+Sat in groups and made up a plan, each member decided of one of the hamburgers contents.
+
+Third day:
+Git didn't work. For some reason the SSH-key wasn't correct.
+Had to make a new SSH-key, made a RSA-key first, which didn't work.
+After some troubleshooting I made a new SSH-key (Ed25519), which did work.
+Accidentally almost uploaded the private key to Github but thankfully GITHUB didn't accept it and told me to upload the public key.
+
+Also tried downloading git-desktop becuase that's what my group uses, but since the SSH-key wasn't correct that didn't work either. After fixing the SSH-issues I decided to keep using GIT through the terminal.
+
+-Removed the repo (hadn't made any changes and got confused on why git wouldn't work)
+-Cloned the repo (once I had fixed the SSH-issues)
+-Made a new commit.
+
+I've also found useful git-commands:
+    -git commit -m "message" (adds a commit to my local repo)
+    -git push (pushes the local commit to github)
+
+
+Fourth day:
 I've researched automatic testing in Python - realised to late that the video only talked about testing to code and not the functions :D
+
+Fifth day (14/10-24):
+I think I misunderstood the assignment, after talking to some classmates and group members I think I'll need to make automatic testing for both the code and the answer. How I should proceed now is quite unclear, but I think I'll find something out after browsing the web. I'll find out more later today.
+
+Plans:
+Look at how DBWEBB validates the code.
+Search for more information online about automatic testing.
+
+-Added quite a bit to the journal, because I forgot to do it earlier. Will start with dates now as well.
