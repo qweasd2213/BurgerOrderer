@@ -36,3 +36,14 @@ Look at how DBWEBB validates the code.
 Search for more information online about automatic testing.
 
 -Added quite a bit to the journal, because I forgot to do it earlier. Will start with dates now as well.
+
+2nd commit (14/10-24):
+
+-Found out that you need to write "git add [file]" before you write 'git commit -m "[message]"'  and that once you've done that you can write "git push" to push it to the server (github)
+
+I've also found two books that I'll read in the future, hopefully during this course but I probably wont have enough time for that.
+
+Books:
+    https://git-scm.com/book/en/v2 - Book on how to use git
+    http://www.obeythetestinggoat.com/ - Book for automatic testing (which from what I've read is really important)
+
