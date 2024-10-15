@@ -47,3 +47,8 @@ Books:
     https://git-scm.com/book/en/v2 - Book on how to use git
     http://www.obeythetestinggoat.com/ - Book for automatic testing (which from what I've read is really important)
 
+15/10-24
+Researched different test frameworks for python and decided to use pytest because it's supposedly simple. Couldn't figure out how to use it with the API, because I put the test file withi n the Program directory.
+
+
+After some discussion with the group I changed the test-files location to the BurgerOrderer directory and tried running the script once again. The script failed so I proceeded to try some workarounds and figured out that I had used the wrong address for the localhost, trough pytest (it said that the import + output was a different type of localhost :D).  Changed the local-hosts adress and got it working.
