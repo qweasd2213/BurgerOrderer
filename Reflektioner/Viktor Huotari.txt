@@ -9,3 +9,5 @@ Translated the planering.md document to English from Swedish. I have also added 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Third update
 I have added more options in burgerorderer, added a options document in planering  that contains the options for all the burgers. Also removed the text from the individual burger documents so it does not contain useless information. Continued writing in the planering document. Used commit and push git commands to send it
+The group meet up to work together with the project. As a group we tried to figure out how to work with the database and automated testing part of the project. We had no to little success but Ante and Hugo that are in charge with those parts will study it more over the weekend.      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
