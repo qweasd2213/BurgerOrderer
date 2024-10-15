@@ -15,10 +15,9 @@ ENV POSTGRES_DB=your_database_name
 EXPOSE 6000
 EXPOSE 5432
 
-RUN service postgresql start && \
-    sudo -u postgres psql -c "CREATE USER your_username WITH PASSWORD 'your_password';" && \
-    sudo -u postgres createdb -O your_username your_database_name
-
-CMD service postgresql start && flask run --host=0.0.0.0 --port=6000
+CMD service postgresql start && \
+    sudo -u postgres psql -c "CREATE USER ${POSTGRES_USER} WITH PASSWORD '${POSTGRES_PASSWORD}';" && \
+    sudo -u postgres createdb -O ${POSTGRES_USER} ${POSTGRES_DB} && \
+    flask run --host=0.0.0.0 --port=6000
 
 ENTRYPOINT ["python3", "app.py"]
