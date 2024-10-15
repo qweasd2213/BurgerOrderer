@@ -13,5 +13,3 @@ connection = psycopg2.connect(host='0.0.0.0', database='asdf', user='adsf', pass
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=6000)
-
-
