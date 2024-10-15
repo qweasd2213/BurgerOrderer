@@ -9,4 +9,6 @@ The work flow most commonly used in this course from what we have seen is GitHub
 
 Our work with configuration management have been the tracking of features added on GitHub desktop. The good parts are that we have easily documented all the changes with this and these changes both have the things added and removed. The bad part is when you do small changes it will still have as much of a visual change before you go in to the change which has occurred. We solved these issues with pushing with just doing more work before we push. If we would have thought about this earlier we would have less changes with more information.
 
+The problem we had was getting everyone organized and meet up in person to get this project started. When we eventually got started we decided to divide our work between us so we wouldn't be so dependent on each other to work which worked well although when we got closer to the timeline some were done and some had to get help with their work from others. That was because some work were easier and some were harder to get working which led to this.
+
 
