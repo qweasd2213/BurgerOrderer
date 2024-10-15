@@ -1,3 +1,5 @@
-En readme skriv lite roliga saker...
+How to run the setup the program:
+Run the programs makefile located in BURGERORDERER/Program/makefile
 
-När du har clonat från githib, ställ dig i terminalen och kör "docker-compose -f burgerorderer.yaml up --build" för att köra i docker eller kör direckt i vscode och följ popupp fönstret för att instalera det som behövs.
+Running this makefile will run the burgerorderer.yaml file witch setups the three containers for this program. 
+In Docker you should see three running containers, go into loclhost:8000 in your browser. You should be presented with the burgerorderer interface. If you order a burger you should see the order in appear in the kitchenview terminal. 
