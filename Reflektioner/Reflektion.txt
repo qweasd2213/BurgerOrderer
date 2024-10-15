@@ -36,6 +36,3 @@ our problem with databases wh
 When we eventually got started we decided to divide our work between us so we wouldn't be so dependent on each other to 
 work which worked well although when we got closer to the timeline some were done and some had to get help with their 
 work from others. That was because some work were easier and some were harder to get working which led to this.
-
-Python1 + python2 = python3
-

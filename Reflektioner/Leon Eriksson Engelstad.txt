@@ -7,3 +7,7 @@ Wrote out a plan for this project
 Updated the plans
 2024-10-11
 Wrote out the reflection for the project according to the pdf "assignments descriptions" but haven't wrote out what we haven't succeeded with.
+2024-10-15
+Wrote on our group reflection and added more about what went good in this project, what didn't go well but we still succeeded with and what we didn't get solved.
+
+I also collaborated on fixing automatic testing. We did this by watching two different videos which gave us a broader view on the testing subject. We decided to either choose unittesting or pytesting. we decided to use Py testing which was the one i didn't watch but since they are similar i still helped.
