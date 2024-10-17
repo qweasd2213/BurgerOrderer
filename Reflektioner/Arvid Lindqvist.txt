@@ -15,8 +15,6 @@ I have so far made a few comits to the repo. I fixed the html in burgerorderer s
 printed out in the console of kitchenview. But mainly i have been trying to understand flask and figure out how evrything 
 works. 
 
-
-
 Second uppdate to enginnering diary.
 Since the last uppdate to the diary i have made commits to the burgerorderer.yaml and menuestore dockerfile, 
 i added menuestore to burgerorderer.yaml so menuestore gets set up in its docker contaioner. I also corrected port number 
@@ -24,52 +22,4 @@ in menuestore docerfile. The group also met in person where we mainly tryed and 
 litele succes. Ialso made commits to burgerorderer app.py and kitchenview app.py, for burgerorderer i added functionality for
 selecting options and quantety for your burger. And uppdated kitchenview to handele options and quantety. I chose to add another 
 page to burgerorderer after selecting burger where the user can chose potions and how many to buy and a button to send the order.
-
-
-
-Debug-session
-I chose to debug the kitchenview program and track how it handeles reciving a order from burgerorderer. 
-I kitchenview app.py i started of by placing a breakpoint on line 8. A breakpoint is something that can place on a desired line 
-to pause the execution of the code so it can be examined and debuged. I chose to only use one breakpoint to pause the program 
-because it is rather small and i use the "Step over", "Step into", "Steap out" and "Continue" buttons in the debugger to navigate
-from the breakpoint.
-
-Buttons in the debugger, "Step over" executest the line you are standing on and moves to the next, without moving deeper into 
-potentional functioncalls on that line.
-"Step into" Is used to hop into a function on the current line to debug that function.
-"Step out" Used when in a function, executes the function and returns to where it was called.
-"Continue" Resumes the program like nolmal untill it hitts another breakpoint or the program ends.
-
-Debugging...
-I star the debugging prosess by placing out my breakpoint on line 8 in kitchenview app.py. Then i run the debugger. I also have 
-burgerorderer runnig like notrmal, not in debugg mode, so i can send orders to kitchenview to debugg. When i place a order in 
-burgerorderer it will be cent to kitchenview and kitchenwiew running in the debugger will stopp at the breakpoint. In this case 
-i ordered 22 Halloumi burger whith the option Pickles. The program stops at the breakpoint and the variables and the flow of 
-the code can be followed. Variables can be observed by hovering over them with the  mouse in the code or in the 
-debugger manue/variables/Locals menue. At this point i can see the variable "burgerNAme = 'Halloumi burger'", by useing the button 
-"Step over" i move to the next line in the code and anothe variable apears when the quantety of the order is retrived in this 
-case "quantity = '22'", Using "Step over" again we also retrive the options witch appear in the variables/local menue under the 
-name options containg a list of the selected optins Pickles in this case.
-
-Steping over to the next line will land us on the print statement and the variables about tp be printded can be observed moving 
-to the nex tile will see mesage apear in the console of kitchenview. Now we are on a if statement that checks if the options list 
-is empty or not int this case it contains pickles so it is true. Continuing the debugging using "step over" "options:" is printed 
-to the terminal and we then enter a for loop to print the actual options. The line thats im currently standing on is highlited and 
-when steping through the for loop we se that we move to the print option witch prints the option and then we go upp a row to the 
-for loop again and now becase we only have one option we hop down to the return of the function a few lines down. And pressin 
-step over again we se that the order confirmation apears in burgerorderer. And know i cant move anywhere becase kitchnview is 
-finnished untill another order is placed.
-
-Another ordr senario, Ordering one Chicken burger witch no options. Now im only stating the diffrenecs from the other senario. 
-And now when kitchenview tries to get the options we instead end upp with a empty list, and this causes the if statement 
-to be false, line 12. ANd when step over is pressed we move to the else statement and print "No options..." to the console instead.
-
-Summary and reflection of the session
-This was my first time using the python debugger in vscode. kitchenview is a small program and i found no bugs but i now fell comfterble 
-using the debugger. Somthing that was a bit har was when i first tryed i placed the breakpoint on the buy() function but then the 
-program imidietly paused and it could not recive the order from burgerorderer and i got a connection error in burgerorderer witch had me 
-a bit confused but when i figured that put i had no problems. In the future if i run into a hard problem in my code i will definetly 
-give the debugger a try to help me solve it, most of the time i can find the problem by looking at the code and thinking how it would 
-work but if that does not work then i will try the dubugger. 
-END of debug session.
 

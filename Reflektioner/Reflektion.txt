@@ -2,9 +2,6 @@
 
 name of the people on the team: **Ante, Arvid, Leon, Viktor, Hugo**
 
-https://github.com/qweasd2213/BurgerOrderer
-
-3.3
 
 configuration management is a process which is used for controlling, tracking and handling changes in the program.
 
@@ -31,6 +28,10 @@ We solved the automatic tests by watching a informative video which helped us un
 two in our group watch two different videos with different approaches on how to solve this problem so we got two 
 perspectives which made it easier for us to choose which way we wanted to solve this. The videos were about running 
 test with unittest and one on pytest. we decided to use pytest because of its simplicity.
+
+We got stuck on containers
+
+our problem with databases wh
 
 When we eventually got started we decided to divide our work between us so we wouldn't be so dependent on each other to 
 work which worked well although when we got closer to the timeline some were done and some had to get help with their 
