@@ -16,7 +16,15 @@ our experience working on the project.
 
 what went well was creating the containers, KitchenView and BurgerOrder. This went well because we had a good understanding on how we would go about creating these and we started early so we had alot of time to figure it out.
 
-what went less well were how we planned the distribution of the work for the project, our teamwork and meetup sessions. We had a couple of sick group members who could not attend the in person meeting the remaining group members assigned work to them which didn't work out so we had rework our plan and we also distributed the work strictly when we should have been more flexible with who does what.
+what went less well were how we planned the distribution of the work for the project, our teamwork and meetup sessions. We had a couple of sick group members in the beginning who could not attend the live sessions, which made planning the distribution of work quite difficult. The group members who had met up distributed the work for everyone from what they thought was realistic. 
+
+Ante: Automatic testing
+Hugo: Database
+Leon: Reflections
+Viktor: BurgerOrder
+Arvid: KitchenView
+
+This proved to be quite problematic because we did not really know what we were going into in the beginning. For example each part of the project is built on the other. Since BurgerOrder works with KitchenView you need to write both together, you can not have two different people write the code separately. We realised all of this quite late, which lead to our workspace becoming messy, some members had written more than others while others were unsure about what they had to do.
 
 Instead we could have meetup more often and been more flexible with the work distribution, and planning meetups when everyone was able to join.
 
