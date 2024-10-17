@@ -72,3 +72,11 @@ a bit confused but when i figured that put i had no problems. In the future if i
 give the debugger a try to help me solve it, most of the time i can find the problem by looking at the code and thinking how it would 
 work but if that does not work then i will try the dubugger. 
 END of debug session.
+
+Third uppdate to enginnering diary.
+Since the last uppdate to the diary i have made a few comits the main one beeing a comit to burgerordere that i made with Hugge25/Hugo, and 
+it makes it so that burgerorderer now gets its burgers and optins from the database instead of beeing coded into burgerorderer. Hugo 
+who made the database help to get it to work with burgerorderer. We also had a incident in aur git repo where teammember vetekakor/ Ante
+acidentaly reverted progress and we had to fix some files from the commit history. We also merched the development branch into main. 
+Becase the projeckt is done so now the working program in on the main branch.
+
