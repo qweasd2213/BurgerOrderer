@@ -60,3 +60,17 @@ Found out about a command that creates a requirements.txt for you with all of th
 
 Still confused about how I'm supposed to do these tests, just doing an assert function for the url (what I've done so far), doesn't really do much. I need to figure out how to test like the actual function of the program. Been searching on the web for different ways to do this, but haven't really been able to find anything useful. Could be because I do not understand falsk and docker enough, so I'm going to watch a couple tutorials on those parts and then go back to trying to figure out how to unit tests the programs functions. Doing a unit-test with my knowedlge would be easy if it had just been different functions, but since we're working with dictionaries (which I've never used before) and flask+docker I'm quite lost. Well we'll see if I can figure it out once I've watched the tutorials on SQLAlchemy Databases and docker containers :D
 
+Accidentally merged my workspace with the one github (whoops), but due to this I found these commands which helped me fix the issue:
+
+-git log #shows a log of what as been commited to git
+-git log --oneline #shows every commit but each commit and it's info is on a seperate line
+-git revert #which basically is an undo command (but for git)
+-git revert -m 1 #m 1 = which parent branch to keep, in this case 1 becuase that's the main one
+-git revert -m 1 31a1981 #31a1981 = the version that had to be reverted
+
+After running the commands:
+-git log --oneline
+-git revert -m 1 31a1981
+
+I had reverted the github back to (almost) it's original state, some parts were missing, but after talking to my groupmates they decided to commit what had been lost once again, and so we had fixed all of the issues (I made).
+
