@@ -1,0 +1,37 @@
+#collaborated reflection and summary of project.
+
+name of the people on the team: **Ante, Arvid, Leon, Viktor, Hugo**
+
+https://github.com/qweasd2213/BurgerOrderer
+
+3.3
+
+configuration management is a process which is used for controlling, tracking and handling changes in the program.
+
+Our work with configuration management have been the tracking of features added on GitHub desktop. The good parts are 
+that we have easily documented all the changes with this and these changes both have the things added and removed. The 
+bad part is when you do small changes it will still have as much of a visual change before you go in to the change which 
+has occurred. We solved these issues with pushing with just doing more work before we push. If we would have thought 
+about this earlier we would have less changes with more information.
+
+The work flow most commonly used in this course from what we have seen is GitHub desktop. some of the GitHub commands 
+used are pull, push and branches feature. Pull is used to get the most recently pushed data which makes collaborating 
+a lot easier. Push is what you do when you want to add something to the project and you push it so other people can 
+see the thing you added. The branches makes the dividing between undeveloped features and finished features easier so 
+you can track what is done and what is not.
+
+The things that went well with this project were setting up the program, making branches and writing in documents. What 
+also went good were that we didn't have to redo any major parts of our project which we had heard from another group 
+they might have needed to do. 
+
+The problems we had was running the automatic tests, containers, databases and getting so everyone meets up in person to get this 
+project started. 
+
+We solved the automatic tests by watching a informative video which helped us understand what was needed to do. We had 
+two in our group watch two different videos with different approaches on how to solve this problem so we got two 
+perspectives which made it easier for us to choose which way we wanted to solve this. The videos were about running 
+test with unittest and one on pytest. we decided to use pytest because of its simplicity.
+
+When we eventually got started we decided to divide our work between us so we wouldn't be so dependent on each other to 
+work which worked well although when we got closer to the timeline some were done and some had to get help with their 
+work from others. That was because some work were easier and some were harder to get working which led to this.
