@@ -44,6 +44,7 @@ session.query(BurgerOrder).delete() #Delets all data in BurgerOrder since otherw
 session.query(Option).delete()
 session.commit()
 
+# Adding all burgers and options to session
 b1 = BurgerOrder("Chicken burger")
 b2 = BurgerOrder("Halloumi burger")
 b3 = BurgerOrder("Hamburger")
@@ -72,9 +73,6 @@ session.commit()
 
 burgers = session.query(BurgerOrder).all() #Queries everything in BurgerOrder and stores in results
 options = session.query(Option).all()
-
-print(burgers)
-print(options)
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=6000)
