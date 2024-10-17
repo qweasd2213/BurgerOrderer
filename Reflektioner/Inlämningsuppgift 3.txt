@@ -8,3 +8,8 @@ https://github.com/qweasd2213/BurgerOrderer
 
 What we have tested is the function makeurl. makeurl is a function which when you press on for example "Halloumi burger" on the website it redirects you to /buy/Halloumi burger.
 
+https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Ante%20Runfors
+https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Arvid%20Lindqvist.txt
+https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Leon%20Eriksson%20Engelstad.txt
+https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Hugo_Paulsson.md
+https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Viktor%20Huotari.txt
