@@ -42,7 +42,7 @@ session = Session()
 staticBurgers = []
 options_list = []
 
-def initialize_data():
+def initialize_data(): # Function is used to run code. Without function the code won't run properly
     global staticBurgers, options_list
     staticBurgers = [{"name": burger.burger_name} for burger in session.query(BurgerOrder).all()]
 

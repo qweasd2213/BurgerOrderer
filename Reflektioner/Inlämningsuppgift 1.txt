@@ -19,5 +19,3 @@ The things that also went well were when we committed changes it was easy to see
 The problem that occurred was that one of our members didn't want to use GitHub desktop and used the terminal, and when he thought he merged locally he merged to the server instead which created some issues and since the other members use GitHub desktop we didn't know how to fix it and had to look for information to fix it but in the end we managed to succeed in restoring it.
 
 We managed to solve every problem which occurred in the work progress quite easily.
-
-Our experience with configuration management
