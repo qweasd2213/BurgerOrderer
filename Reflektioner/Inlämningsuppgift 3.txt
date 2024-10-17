@@ -6,7 +6,26 @@ https://github.com/qweasd2213/BurgerOrderer
 
 5.4
 
-What we have tested is the function makeurl. makeurl is a function which when you press on for example "Halloumi burger" on the website it redirects you to /buy/Halloumi burger.
+We have made an unittest, but only for one function (makeURL). For the test we used the testing framework pytest, because it is a supposedly simple testing framework that works for both small and big projects, which sounds like a perfect testing framework for beginners like us. To test the function makeURL we used the assert statement to check if the input of the makeURL function equaled the output that we wanted. All of the tests passed.
+
+The results of our latest testsession:
+Program\Containers\BurgerOrderer\test_app.py ....                             [100%] 
+
+================================= warnings summary ================================= 
+Program\Containers\BurgerOrderer\app.py:13
+  C:\Users\Hugo Paulsson\Documents\GitHub\BurgerOrderer\Program\Containers\BurgerOrderer\app.py:13: MovedIn20Warning: The declarative_base() function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    Base = declarative_base()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== 4 passed, 1 warning in 1.13s ===========================
+
+The making of automatic tests did not go that well beacuse of the way we had distributed the work and partly because we misunderstood what automatic testing meant. Since each member of the group had one part of the project to write and we did not communicate enough Ante, who wrote the tests did not know what he was meant to test nor what a proper automatic test was. He first misunderstood automatic testing to be something like pylint, since that automatically tests if the code was written correctly, while automatic testing in reality had less to do with how the code was written and more about it's functionality. Which in turn meant that he started off by researching the wrong thing. Once he realised (with the help of his group and classmates) that the automatic testing meant testing the functionality of the program he started researching different test frameworks and found pytest. Using pytest went partly well, because soon after with the help of Arvid (to help him understand Burgerorder and Kitchenview better) he had written a working test. The only issue now was that the test that he had written only tested if clicking on E.g. "Hamburger" directed him to "/buy/Hamburger", which per say is important, but in reality does not matter that much. 
+
+Using the assert statement to test the functionality, worked well, except that the program used dictionaries, which was something that Ante had not used before and neither he or his group members knew how to write a test with dictionaries and since the first test didn't conclude a dictionary (clicking on the hyperlink for [Insert Burgername]), he did not know how to continue from there. At this point of time he still does not know how to write a test that tests the entirety of the programs functions from when you chose which burger you want to when you press order. 
+
+What we should have done from the beginning to make writing the test easier and better would have been to work together from the start instead of seperating the different parts of the projects. If Ante would have been with Arvid and Viktor from the beginning while they wrote BurgerOrder and Kitchenview he would have gotten more knowledge of how the code worked, and therefore also understood how the process from chosing which Burger the customer wants to pressing order works, like what variable gets changed through the process, and which the first function that activates is so that it can be used for a assert statement where the used functions input gets compared with the ouput (This burger + these things == This burger + these things). 
+
+
 
 https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Ante%20Runfors
 https://github.com/qweasd2213/BurgerOrderer/blob/development/Reflektioner/Arvid%20Lindqvist.txt
