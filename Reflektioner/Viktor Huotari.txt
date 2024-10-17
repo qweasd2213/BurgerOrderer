@@ -11,3 +11,20 @@ Third update
 I have added more options in burgerorderer, added a options document in planering  that contains the options for all the burgers. Also removed the text from the individual burger documents so it does not contain useless information. Continued writing in the planering document. Used commit and push git commands to send it
 The group meet up to work together with the project. As a group we tried to figure out how to work with the database and automated testing part of the project. We had no to little success but Ante and Hugo that are in charge with those parts will study it more over the weekend.      
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<<<<<<< Updated upstream
+=======
+Fourth update:
+I started this days work session with taking on the task to write the programs README. In the README i wrote about how the user should setup the program.
+I did some research about if we should use burgerorderer.yaml or makefile to setup the program.
+After looking around for a bit i saw that the makefile does the same thing as burgerorderer.yaml so I went with that. After that i did research about how to use the makefile, all that you need to do to use makefile is run the "make" command in the terminal. 
+I tried to run this command with no success. I looked in to it and it turns out i need to have make installed on my computer. In order to install make i ran the commands sudo apt-get update and
+sudo apt-get install build-essential. These commands installed make along with other essential development tools. Now when i ran the make command it worked, the program was built in Docker and i could run the program through Docker. 
+After the README was done i did a commit and pushed it to our GitHub Desktop. I then helped the other group members with their tasks a little. I did some research about databases and automated testing, I also helped Leon out with the joint reflections. 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Fifth update:
+Debug-session:
+Continued helping out the other members with their tasks. I helped Leon with the join reflections for the most part. After that i did some research about how a debugging session should be done.
+What should be tested, how to document it during the debugging and describe how the different buttons do when debugging such as Continue”, “Step over”,
+“Step into”, och “Step out”.  
+For my Debugging session i chose to debug Burgerorderer specifically how it renders the front page.
+>>>>>>> Stashed changes
