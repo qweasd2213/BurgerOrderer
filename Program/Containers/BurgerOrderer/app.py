@@ -1,18 +1,54 @@
-from flask import Flask, request
 import os
+from flask import Flask, request
 import requests
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine, Column, String, Integer
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydb.db'
+db = SQLAlchemy(app)
 
-staticBurgers = [
-    {"name": "Chicken burger"},
-    {"name": "Halloumi burger"},
-    {"name": "Hamburger"},
-    {"name": "Deluxe burger"},
-    {"name": "Vegan burger"}
-]
+Base = declarative_base()
 
-options_list = ["3xcheese", "Onions", "Secret sauce", "Tomato", "Pickles"]
+class BurgerOrder(Base):
+    __tablename__ = "BurgerOrders"
+    burger_id = Column("burger_id", Integer, primary_key=True, autoincrement=True)
+    burger_name = Column("burger_name", String)
+
+    def __init__(self, name):
+        self.burger_name = name
+
+    def __repr__(self):
+        return f"({self.burger_id}), {self.burger_name}"
+
+class Option(Base):
+    __tablename__ = "Options"
+    option_id = Column("option_id", Integer, primary_key=True, autoincrement=True)
+    a_option = Column("a_option", String)
+
+    def __init__(self, option):
+        self.a_option = option
+
+    def __repr__(self):
+        return f"({self.option_id}), {self.a_option}"
+
+engine = create_engine(app.config['SQLALCHEMY_DATABASE_URI'], echo=True)
+Base.metadata.create_all(bind=engine)
+Session = sessionmaker(bind=engine)
+session = Session()
+
+staticBurgers = []
+options_list = []
+
+def initialize_data():
+    global staticBurgers, options_list
+    staticBurgers = [{"name": burger.burger_name} for burger in session.query(BurgerOrder).all()]
+
+    options_list = [option.a_option for option in session.query(Option).all()]
+
+initialize_data()
 
 def getBurgers():
     return staticBurgers
@@ -45,7 +81,7 @@ def renderOrderingPage(burgerName):
 def frontpage():
     return renderFrontpage()
 
-baseURL='http://' + os.getenv('KITCHENVIEW_HOST', 'localhost:5000')
+baseURL = 'http://' + os.getenv('KITCHENVIEW_HOST', 'localhost:5000')
 
 def makeURL(burgerName):
     return baseURL + '/buy/' + burgerName
