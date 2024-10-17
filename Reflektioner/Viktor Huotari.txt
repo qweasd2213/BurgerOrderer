@@ -22,9 +22,41 @@ sudo apt-get install build-essential. These commands installed make along with o
 After the README was done i did a commit and pushed it to our GitHub Desktop. I then helped the other group members with their tasks a little. I did some research about databases and automated testing, I also helped Leon out with the joint reflections. 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Fifth update:
-Debug-session:
 Continued helping out the other members with their tasks. I helped Leon with the join reflections for the most part. After that i did some research about how a debugging session should be done.
-What should be tested, how to document it during the debugging and describe how the different buttons do when debugging such as Continue”, “Step over”,
-“Step into”, och “Step out”.  
+What should be tested, how to document it during the debugging and describe how the different buttons do when debugging such as "Continue”, “Step over”,
+“Step into”, and “Step out”.
+We continued to work on the join reflections as a group finishing up the documents. 
+I have created a new venv so i can run the database. 
+Did a debugging session and documented the session with the results and my thought about debugging as a tool.
+
+Debug-session:  
 For my Debugging session i chose to debug Burgerorderer specifically how it renders the front page.
->>>>>>> Stashed changes
+I placed a breakpoint on line 57 in app.py in burgerorderer, under the function renderFrontpage. 
+The usage of breakpoints allow me to examine the state of the program as well as the values of variables.
+The breakpoints also allow me to control the flow which the program is executed, by using "Continue”, “Step over”,
+“Step into”, and “Step out” im able to navigate through the program step by step.
+Buttons in the debugger:
+Step into: Used to go into a function on that line that you are currently on.
+Step out: Used to execute the function that you are in at the moment and returns to the line were that function is called on.
+Step over: Used to execute the line that you are on and steps into the next without going deeper into a function that you may be at.
+continue: Used to execute the program like normal. Continues to do this until you hit another breakpoint in your code.
+
+Debugging process:
+I started with pressing "f5" to start the debug. which starts the debug at the breakpoint in line 57 in burgerorderer. 
+Here i can see the variables curet values to the left in the variables menu. Which at the moment are none. 
+As i step in to the function the variables pg gets the value '<h1> Welcome to BrugerOrderer</h1>' making Welcome to BUrgerOrderer a headline
+When i continue to step into the function the pg variables is given <UL> that is used to create a list of the following burgers.
+Continuing stepping into the program it uses the getburgers function to get the burgers from the database. 
+In the for loop b is given the value of each burger in the database and adds the burgers to the list in the pg variable. 
+I continue to use step into until b has been given every burger name and added them to the pg variables list. 
+After the for loop is done the function adds </UL> the pg variable that ends the list of burgers for the front page. 
+After i step into the last line for the renderFrontpage function the complete front page is returned 
+For the last step into the function renderFrontpage is given to a new function called frontpage. This function loads the front page at the front page route '/'
+
+Debugging session thoughts: 
+The debugging session went well since i debugged a rather small function it didn't take that long to step through the function.
+The variables values were easy to follow as they changed values through out the function. 
+There were some difficulties when I was going to start the debug session. I found it a little difficult to figure out were i should place my breakpoint in the code.
+But after looking in to it and trying different break point positions I got a good result that worked out in the end. 
+It was also my first time debugging in visual studio code, I usually do my debugging through Thonny. So it took some time to figure out how to get it done. 
+Debugging will definitely be a useful tool for me in the future. It is a very useful tool to go through your code and see exactly were the code runs in to an error or were it crashes.   
