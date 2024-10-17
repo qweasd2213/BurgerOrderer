@@ -52,3 +52,11 @@ Researched different test frameworks for python and decided to use pytest becaus
 
 
 After some discussion with the group I changed the test-files location to the BurgerOrderer directory and tried running the script once again. The script failed so I proceeded to try some workarounds and figured out that I had used the wrong address for the localhost, trough pytest (it said that the import + output was a different type of localhost :D).  Changed the local-hosts adress and got it working.
+
+16/10-24
+
+Found out about a command that creates a requirements.txt for you with all of the packages that are used in a project:
+-pip3 freeze -r -requirements.txt
+
+Still confused about how I'm supposed to do these tests, just doing an assert function for the url (what I've done so far), doesn't really do much. I need to figure out how to test like the actual function of the program. Been searching on the web for different ways to do this, but haven't really been able to find anything useful. Could be because I do not understand falsk and docker enough, so I'm going to watch a couple tutorials on those parts and then go back to trying to figure out how to unit tests the programs functions. Doing a unit-test with my knowedlge would be easy if it had just been different functions, but since we're working with dictionaries (which I've never used before) and flask+docker I'm quite lost. Well we'll see if I can figure it out once I've watched the tutorials on SQLAlchemy Databases and docker containers :D
+
