@@ -6,19 +6,21 @@ https://github.com/qweasd2213/BurgerOrderer
 
 4.3
 
-We have made a program to order and handle the orders for burgers. the system has a web-client where you order the burgers, a web-client to view the orders and a menu-database.
+We have made a program to order and handle the orders for burgers. The system has a web-client where you order the burgers, a web-client to view the orders and a menu-database.
 
-Burgerorder is used for ordering a burger and customizing it from the menu-database then kitchenview takes the order from burgerorder and makes it so the staff can see the order.
+BurgerOrder is used for ordering a burger and customizing it from the menu-database then KitchenView takes the order from BurgerOrder and makes it so the staff can see the order.
 
-Flask is used to create webservices which is necessary for this project. it creates routes for example /order/<burgername>. The request module is used for sending HTTP modules to kitchenview. The os module is used to check if the kitchenview environment is there and then uses that for receiving the order. sqlAlchemy is what we used for our database, and is needed for storing, getting the burger and getting the order.
+Flask is used to create webservices which is necessary for this project. it creates routes for example /order/<BurgerName>. The request module is used for sending HTTP modules to KitchenView. The os module is used to check if the KitchenView environment is there and then uses that for receiving the order. sqlAlchemy is what we used for our database, and is needed for storing, getting the burger and getting the order.
 
 our experience working on the project.
 
-what went well was creating the containers, kitchenview and burgerorder. This went well because we had a good understanding on how we would go about creating these and we started early so we had alot of time to figure it out.
+what went well was creating the containers, KitchenView and BurgerOrder. This went well because we had a good understanding on how we would go about creating these and we started early so we had alot of time to figure it out.
 
-what went less well were 
+what went less well were how we planned the distribution of the work for the project, our teamwork and meetup sessions. We had a couple of sick group members who could not attend the in person meeting the remaining group members assigned work to them which didn't work out so we had rework our plan and we also distributed the work strictly when we should have been more flexible with who does what.
 
-what went bad was making the database and automated testing. The reason for these not going as well as the rest of the project were because they were more complicated and we started working on them later than kitchenview and burgerorder. We started later because automatic testing needed something to test and when we started trying to implement it we realised how hard it would be to do it. The database went bad because of us not using sqlAlchemy from the beginning which led to us wasting some time trying to get the other way to workout.
+Instead we could have meetup more often and been more flexible with the work distribution, and planning meetups when everyone was able to join.
+
+what went bad was making the database and automated testing. The reason for these not going as well as the rest of the project were because they were more complicated and we started working on them later than KitchenView and BurgerOrder. We started later because automatic testing needed something to test and when we started trying to implement it we realised how hard it would be to do it. The database went bad because of us not using sqlAlchemy from the beginning which led to us wasting some time trying to get the other way to workout.
 
 We solved everything.
 
@@ -26,7 +28,4 @@ our experience working with containers.
 
 what went well were we got all the containers to run and we got it structured very well. We could program more efficiently because we had everything separate which would be hard otherwise if everything was in one program.
 
-what went less well were
-
-The difficulties we solved we did by trying different approaches. For example 
-
+The difficulties we solved we did by trying different approaches. For example when we did the menu database we researched on something else than sqlAlchemy which led us nowhere, but when we started looking into sqlAlchemy we got on track.
