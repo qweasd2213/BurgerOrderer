@@ -11,3 +11,5 @@ Wrote out the reflection for the project according to the pdf "assignments descr
 Wrote on our group reflection and added more about what went good in this project, what didn't go well but we still succeeded with and what we didn't get solved.
 
 I also collaborated on fixing automatic testing. We did this by watching two different videos which gave us a broader view on the testing subject. We decided to either choose unittesting or pytesting. we decided to use Py testing which was the one i didn't watch but since they are similar i still helped.
+2024-10-17
+Wrote on our group reflection and finished all the questions for the project and then submitted the reflections and had a debugging session.
