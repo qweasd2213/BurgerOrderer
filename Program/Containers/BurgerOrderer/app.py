@@ -86,5 +86,7 @@ def buy():
     sendToKitchen(burgerName, request.args)
     return f"Ordered {quantity} {burgerName} with options: {', '.join(options)}"
 
+results.get()
+
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=8000)
