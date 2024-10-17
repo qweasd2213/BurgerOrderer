@@ -1,4 +1,4 @@
-How to run the setup the program:
+How to run and use the program:
 Run the programs makefile located in BURGERORDERER/Program/makefile
 
 Running this makefile will run the burgerorderer.yaml file witch setups the three containers for this program. 
