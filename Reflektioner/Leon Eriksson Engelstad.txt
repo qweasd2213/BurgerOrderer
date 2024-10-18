@@ -13,3 +13,22 @@ Wrote on our group reflection and added more about what went good in this projec
 I also collaborated on fixing automatic testing. We did this by watching two different videos which gave us a broader view on the testing subject. We decided to either choose unittesting or pytesting. we decided to use Py testing which was the one i didn't watch but since they are similar i still helped.
 2024-10-17
 Wrote on our group reflection and finished all the questions for the project and then submitted the reflections and had a debugging session.
+
+2024-10-18
+Had my final debugging session and wrote everything out and finally understood how it all works. It took some time but im now familiar with debugging and can perform it easily.
+
+Debugging session:
+For my debugging session i choose the addOptions function in burgerorder and set a breakpoint on line 90.
+
+The button "Continue" continues to run the program from where you left off when checking code with the other buttons, "Step into" is used to go in a function, "Step out" is used to go out of a function your in right now and "step over" goes through the line your on but then goes over the function.
+
+i choose to watch option variable "3xcheese" and in the program it cycles from which burger to how many of this burger and then has a value of "3xcheese". I do this by cyling through the "step into" button.
+
+If i change the option to for example "onions" it changes the url to the onions url. If i shutdown through the options i get a connection error.
+
+what went well were when i figured out the testing it was simple to use. Before i had used thonny for debugging but now i feel i can use vscode aswell for this which might be easier in the future. The problem i had was understanding how to get everything running but when i did and the buttons for debugging were working it was easy.
+
+The easy part was understanding the changes of variables and how it cycled through code since you have a description of all changes in a small window to the right, and the hard part was understanding what happened when the connection error occurred but when i read through it a couple of times i got a good understanding. The reason it didn't work was because they depend on eachother.
+
+Debugging can be a useful tool to find misses which i haven't seen and give a different perspective to the problem i am facing when coding so therefore i think it will be a good tool for me.
+
