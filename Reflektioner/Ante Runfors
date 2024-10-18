@@ -74,3 +74,46 @@ After running the commands:
 
 I had reverted the github back to (almost) it's original state, some parts were missing, but after talking to my groupmates they decided to commit what had been lost once again, and so we had fixed all of the issues (I made).
 
+I chose to debug the Kitchenview function. This meant that I first had to start up the MenuStore and BurgerOrderer, because they work together. Once I had started up the different parts of the program I proceeded by putting a breakpoint on line 8 in Kitchenview's app.py and then running the built in python debugger. 
+
+At this point the debugger was up and running, but I was not able to use it, this was because the variables had no worth. To fix this I had to open up my browser and order a hamburger in the program. Once I had done that, the options for the debugger became usable. 
+
+18/10-24 Debugsession:
+
+	Inside of the debugsession:
+		Continue:
+		Continue   runs the program like normal from the point you stop debugging.
+		Step over:
+		With the "Step over" function you can step over a function/part in your code. So if you are currently on line 7 in test_app.py (kitchenview) and press on the step over function you will skip the function "buy" and go to the next function, in this case @app.route. 
+		If you use the "Step over" function inside of a function you will skip to the next line. So if you stand on line 8 and use the "Skip over" function, you will go over to  line 9.
+
+		Step into:
+		Step into is used to step into a function that has been called. This is  useful when you have defined functions in your project, because it lets you debug those functions even though they are defined elsewhere in the project compared to where you are debugging. 
+
+		Step out:
+		Step out is used to step out of a function that you are debugging. 
+
+	Observing a variabel:
+	To observe a variabel we have got a window on the left side of VS Codium. In this window you can see how the variable changes while going through the program. For this example I observed the variable “burgerName”, which in this case had the worth “Chicken burger” because I ordered a Chickenburger. In Kitchenview the variable never changed it’s worth, but if it would have the window would have updated and I would have been able to see that the variable burgerName would have gotten a different worth. 
+
+	Trial & Error
+		Ordering a Vegan burger with no options instead of a Chicken burger with onions:
+		When I ordered a Vegan burger with no options, I could see that burgerName had the worth of ‘Vegan burger’ instead of ‘Chicken burger’, and that the variable for options was empty, which is logical because I had not chosen any options. 
+
+While using step over I could also see that the program went past the if-statement (for options) and went to the else-statement instead. This because the If-statement checked if there were any options or not, and if there were no options it was supposed to go over to the else function. Which meant that the code worked as intended. After that I continued with the Step over function until the program had ran successfully all the way through, which it did, noticeable by the output “Order received: 1 Vegan burger
+
+		Ordering a Deluxe Burger, but forgetting to press order:
+		I could not debug the program because nothing was ordered. 
+
+	My thoughts about debugging and the debug-session:
+	Debugging in itself is pretty simple in my opinion, because it is essentially just going through each part of the code you would like to go through from line to line. The only issue I had with this session was that I did not figure out in the beginning why I could not debug, which was caused due to two reason. 
+
+		Reason 1:
+		I had put my breakpoint on line 7, which made it so that the code just ran, because it did not break within a function. 
+		Reason 2:
+		I had forgotten to order something in KitchenView, which meant that the program had no variables to work with, because all of them were empty and had no value. 
+
+	Is debugging a valuable tool?
+	I believe that debugging is a very valuable tool, because it can help you get better understanding of your own code and help you write better code. Without debugging I would probably have gotten stuck countless of times while writing code without managing to figure out what was actually wrong with the code I had written. 
+
+
